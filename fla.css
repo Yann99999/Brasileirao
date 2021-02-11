@@ -75,6 +75,19 @@ h2{
     display: inline-block;
 
 }
+h5
+{
+    background-color: rgb(14, 158, 14);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    font-size: 26px;
+    border-radius: 30px;
+    margin-left: 20%;
+}
 #menul{
         width: 100px;      
         display: flex;
@@ -83,7 +96,7 @@ h2{
         justify-content: right;
         background-color:rgb(14, 158, 14);
         border-radius: 20px;
-        height: 890px;
+        height: 50%;
  }
     
     a{
@@ -125,12 +138,7 @@ button:hover{
       background-color: rgb(14, 158, 14);
       flex-direction: row;
       }
-      h1
-      {
-          background-color: rgb(14, 158, 14);
-          width: 500px;
-          height: 40px;
-      }
+
    #menut li{
         float: left;
         display:inline;
@@ -138,7 +146,7 @@ button:hover{
     }
    
     #icons{
-        margin: 1%;
+        padding: 10px;
         color: white;
     }
     hr{
@@ -159,18 +167,3 @@ span{
 span:hover{
     filter: brightness(80%);
 }
-h1{
-    background-color:  rgb(14, 158, 14);
-    color: white;
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 1000px;
-    height: 40px;
-    margin: 15px;
-}
-
-
